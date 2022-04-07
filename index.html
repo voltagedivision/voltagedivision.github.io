@@ -1,86 +1,27 @@
 <html>
-<style>
-  body {
-  font-family: 'Verdana';
-  padding: 0;
-  margin: 0;
-}
+<body>
 
-/* NAVIGATION */
-nav {
-  width: auto;
-  background:hsla(0, 100%, 70%, 0.3);
-
-}
-
-nav ul {
-  text-align: center;
-}
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin: 0 20px;
-}
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all .7s;
-}
-
-/* SHIFT */
-nav.shift ul li a {
-  position:relative;
-  z-index: 1;
-}
-nav.shift ul li a:hover {
-  color: hsla(0, 100%, 30%, 0.3);
-}
-nav.shift ul li a:after {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 100%;
-  height: 1px;
-  content: '.';
-  color: transparent;
-  background: white;
-  visibility: none;
-  opacity: 0;
-  z-index: -1;
-}
-nav.shift ul li a:hover:after {
-  opacity: 1;
-  visibility: visible;
-  height: 100%;
-}
-
-
-
-  </style>
-<section>
- Voltage Division 
-</section>
-<section>
-  <nav class="shift">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Art</a></li>
-      <li><a href="#">Code</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="#">More</a></li>
-    </ul>
-  </nav>
-</section>  
+  <!-- Header, above navbar, code-->
+  <header>
+    <div>
+      <div>
+        <img src="https://i.ibb.co/pjnv6NC/Splitting-3.png" style="width:100px;"></img>
+      </div>
+      <br>Voltage Division<br>
+      <p style="font-size:20px; font-weight:50; letter-spacing:3px; color: #CAC3CF;">Montserrat Santillan-Rodriguez</p>
+    </div>
+  </header>
+  <section>
+    <nav class="shift">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Art</a></li>
+        <li><a href="#">Code</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+    </nav>
+  </section>
+</body> 
 
 </html>

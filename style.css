@@ -54,7 +54,7 @@ nav.shift ul li a {
   z-index: 1;
 }
 nav.shift ul li a:hover {
-  color: #cfbfdb;
+  color: #b0a8b6;
 }
 nav.shift ul li a:after {
   display: block;

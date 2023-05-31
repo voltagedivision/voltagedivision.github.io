@@ -1,0 +1,78 @@
+header {
+  padding-top: 50px;
+  min-height: 90px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  font-family: "Apple Garamond";
+ /* font-style: italic; */
+ font-weight: 600;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 10px;
+  -webkit-text-stroke: black 0.55px;
+}
+
+header div p {
+  font-family: "Apple Garamond";
+  font-size: 35px;
+  color: black;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 0px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+body {
+  font-family: "Verdana";
+  padding: 0;
+  margin: 0;
+  background-image: repeating-linear-gradient(rgb(255, 223, 223),rgb(245, 245, 155),rgb(178, 230, 247));
+}
+
+/* NAVIGATION */
+nav {
+width: auto;
+background-color: white;
+overflow: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+
+nav ul li {
+  display: inline;  
+  padding: 10px 30px;
+  width: auto;
+
+}
+
+nav ul li a {
+  padding: 10px 10px;
+  display: inline-block;
+  color: black;
+  font-family: "Apple Garamond";
+  text-decoration: none;
+  font-weight:300 ;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  
+}
+
+a:hover {
+color: #8cdcf5;
+text-decoration: underline;
+}
+  
+  /* Start https://www.cursors-4u.com */ 
+  * {cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur265.cur), auto !important;} 
+  /* End https://www.cursors-4u.com */
